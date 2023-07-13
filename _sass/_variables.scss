@@ -13,12 +13,18 @@ $darkGray: #333;
 $gray: #666;
 $lightGray: #eee;
 $white: #fff;
-
+$yellow: #FFC300;
+$lightYellow: #f6d877;
+$bordeaux: #511010;
+$lightBordeaux: #492424;
 // Font stacks
-$helvetica: Helvetica, Arial, sans-serif;
-$helveticaNeue: "Helvetica Neue", Helvetica, Arial, sans-serif;
-$georgia: Georgia, serif;
+// $helvetica: Helvetica, Arial, sans-serif;
+// $helveticaNeue: "Helvetica Neue", Helvetica, Arial, sans-serif;
+// $georgia: Georgia, serif;
 
+$literata: 'Literata', serif;
+$alegreya : 'Alegreya Sans', sans-serif;
+$shadowsInToLight : 'Shadows Into Light', cursive;
 // Mobile breakpoints
 @mixin mobile {
   @media screen and (max-width: 640px) {

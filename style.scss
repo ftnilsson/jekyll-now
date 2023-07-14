@@ -153,6 +153,11 @@ img {
 .wrapper-masthead {
   margin-bottom: 50px;
   background: $lightGray;
+  background-image: url('/images/bg1-min.png');
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  padding: 5vh 0;
+  background-image: url('/images/bg1-min.png'), linear-gradient($lightGray 75%, $white ); /* W3C */
 }
 
 .masthead {
@@ -164,17 +169,17 @@ img {
   }
 }
 
-.site-avatar-wrapper{
+// .site-avatar-wrapper{
   
-  width: 111px;
-  height: 111px;
-  background-image: url('/images/bg2-min.png');
-  background-position: center top;
+//   width: 111px;
+//   height: 111px;
+//   background-image: url('/images/bg2-min.png');
+//   background-position: center top;
 
-  @include mobile {
+//   @include mobile {
   
-  }
-}
+//   }
+// }
 
 
 .site-avatar {
@@ -287,9 +292,18 @@ nav {
 
 .wrapper-footer {
   margin-top: 50px;
-  border-top: 1px solid #575757;
-  border-bottom: 1px solid #575757;
+  // border-top: 1px solid #575757;
+  // border-bottom: 1px solid #575757;
   background-color: $lightGray;
+  background-image: url('/images/bg3-min.png');
+  background-position: center top;
+  background-size:cover;
+  background-repeat: no-repeat;
+  height: 50vh;
+  // background-image: url("IMAGE_URL"); /* fallback */
+  // background-image: url("IMAGE_URL"), linear-gradient(#eb01a5, #d13531); /* W3C */
+  
+  background-image: url('/images/bg3-min.png'), linear-gradient($white,$lightGray 80%); /* W3C */
 }
 
 footer {

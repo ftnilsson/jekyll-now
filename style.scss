@@ -311,7 +311,41 @@ footer {
   text-align: center;
 }
 
+
+
+#developer,  #positivity, #harmony{
+  color: blue;
+}
+
+.realtionship {
+  border-left: 7px solid blue;
+  padding: 0 0 0 20px;
+}
+
+#context {
+  color: green;
+}
+
+.strategy {
+  border-left: 7px solid green;
+  padding: 0 0 0 20px;
+}
+
+#arranger {
+  color: purple;
+}
+
+.executing {
+  border-left: 7px solid purple;
+  padding: 0 0 0 20px;
+}
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
 @import "svg-icons";
+
+// specific About page styles for clifton strengths
+code.language-plaintext{
+  background: $lightGray;
+  color: rosybrown !important;
+}

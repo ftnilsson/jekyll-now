@@ -309,6 +309,17 @@ nav {
 footer {
   padding: 20px 0;
   text-align: center;
+
+  .credits{
+    font-size: 0.8rem;
+  
+   
+  }
+  .copyright{
+    font-size: 0.8rem;
+  
+   
+  }
 }
 
 
@@ -349,3 +360,4 @@ code.language-plaintext{
   background: $lightGray;
   color: rosybrown !important;
 }
+
